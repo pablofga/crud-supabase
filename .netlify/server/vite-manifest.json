@@ -1,0 +1,113 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_stores.js"
+    ]
+  },
+  "src/routes/(logged)/+layout.svelte": {
+    "file": "entries/pages/(logged)/_layout.svelte.js",
+    "src": "src/routes/(logged)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_supabase.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-56f732c3.css"
+    ]
+  },
+  "src/routes/(noLogged)/+layout.svelte": {
+    "file": "entries/pages/(noLogged)/_layout.svelte.js",
+    "src": "src/routes/(noLogged)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_supabase.js"
+    ]
+  },
+  "src/routes/(logged)/edit/[id]/+page.svelte": {
+    "file": "entries/pages/(logged)/edit/_id_/_page.svelte.js",
+    "src": "src/routes/(logged)/edit/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_stores.js",
+      "_supabase.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(logged)/home/+page.svelte": {
+    "file": "entries/pages/(logged)/home/_page.svelte.js",
+    "src": "src/routes/(logged)/home/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_supabase.js"
+    ]
+  },
+  "src/routes/(logged)/post/+page.svelte": {
+    "file": "entries/pages/(logged)/post/_page.svelte.js",
+    "src": "src/routes/(logged)/post/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_Form.js"
+    ]
+  },
+  "src/routes/(noLogged)/+page.svelte": {
+    "file": "entries/pages/(noLogged)/_page.svelte.js",
+    "src": "src/routes/(noLogged)/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_supabase.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_supabase.js": {
+    "file": "chunks/supabase.js"
+  },
+  "_Form.js": {
+    "file": "chunks/Form.js",
+    "imports": [
+      "_index.js",
+      "_supabase.js"
+    ]
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}
